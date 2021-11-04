@@ -1,0 +1,598 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 32646 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Documents/GitHub/Unity_Asia_Meow/Asia_Meow
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+2067
+Successfully changed project path to: C:/Users/user/Documents/GitHub/Unity_Asia_Meow/Asia_Meow
+C:/Users/user/Documents/GitHub/Unity_Asia_Meow/Asia_Meow
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/Unity_Asia_Meow/Asia_Meow/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001555 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1187ms)
+		BeginReloadAssembly (39ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (309ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (121ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002007 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.324400 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.044500 ms  DeleteObjects: 0.044800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/場景素材
+  artifactKey: Guid(aa075d46965db8e4795b2609f249d6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材 using Guid(aa075d46965db8e4795b2609f249d6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc58a4cd7997ab729a6f43d3dcc35ad') in 0.006495 seconds 
+  Import took 0.008741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1707.643253 seconds.
+  path: Assets/場景素材/Meow Knight
+  artifactKey: Guid(84e987047efa8084e9d0b1c1227120c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight using Guid(84e987047efa8084e9d0b1c1227120c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33faa90d4c3fb225e99b85deffca7d00') in 0.006424 seconds 
+  Import took 0.009527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047294 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png
+  artifactKey: Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png using Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0508450d309f59f4016e66e917ca061c') in 0.080525 seconds 
+  Import took 0.083146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png
+  artifactKey: Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png using Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a40163d8be08178e6b3e8efd6e5148a') in 0.010809 seconds 
+  Import took 0.013184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Jump.png
+  artifactKey: Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Jump.png using Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f82ba6748bd638302e609bc5df68ec0') in 0.008792 seconds 
+  Import took 0.011207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png
+  artifactKey: Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png using Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce42ef1f4ff93865144d76a233d45ed4') in 0.009424 seconds 
+  Import took 0.011843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Idle.png
+  artifactKey: Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Idle.png using Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15233709654b4ed256632f9e2431788') in 0.009207 seconds 
+  Import took 0.011653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Run.png
+  artifactKey: Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Run.png using Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07e532f370321acf316687ff3c35568') in 0.009347 seconds 
+  Import took 0.011794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png
+  artifactKey: Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png using Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2470df82822525fa01006834df8897') in 0.010694 seconds 
+  Import took 0.013159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png
+  artifactKey: Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png using Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93b1e1b5051d89bc614e709628fe0a6') in 0.008696 seconds 
+  Import took 0.010995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Take_Damage.png
+  artifactKey: Guid(9f21b6e9ba984a14d930488ec3e1cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Take_Damage.png using Guid(9f21b6e9ba984a14d930488ec3e1cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9abeaf126c5802431e6a3115993069') in 0.009426 seconds 
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Death.png
+  artifactKey: Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Death.png using Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431894c69ef8988bb1750c84c44ca8f3') in 0.009334 seconds 
+  Import took 0.011687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.188748 seconds.
+  path: Assets/場景素材/Meow Knight/Meow_Knight.aseprite
+  artifactKey: Guid(72a3e8c134e5390408cbc44172b2ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow_Knight.aseprite using Guid(72a3e8c134e5390408cbc44172b2ea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a81d9d71151cc2b8d123ed59d9d9b7') in 0.007503 seconds 
+  Import took 0.010035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.422450 seconds.
+  path: Assets/beach/Beach Tileset.png
+  artifactKey: Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/beach/Beach Tileset.png using Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46221b85fdd37deed9852a19d3bd2021') in 0.012541 seconds 
+  Import took 0.015435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.521163 seconds.
+  path: Assets/場景素材/beach/Beach Tileset.png
+  artifactKey: Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/beach/Beach Tileset.png using Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf36e86d1214f2d58859c9f9a738d66a') in 0.008546 seconds 
+  Import took 0.011585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 537.671974 seconds.
+  path: Assets/場景素材/beach/Beach Tileset.png
+  artifactKey: Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/beach/Beach Tileset.png using Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03feef1724da3763ea1f0e4c10abbfe3') in 0.207457 seconds 
+  Import took 0.210414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.812179 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png
+  artifactKey: Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png using Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78968c6d5c90f2ca2973e63fd3daedf') in 0.007293 seconds 
+  Import took 0.010021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.393304 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png
+  artifactKey: Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png using Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c92b88bc8c8d18cd7ebeac4b3a4e52') in 0.008044 seconds 
+  Import took 0.010758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.105585 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png
+  artifactKey: Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png using Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ee1cd184a91dde181db14af6c3ebca') in 0.036281 seconds 
+  Import took 0.039237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.223233 seconds.
+  path: Assets/場景素材/beach/Beach Tileset.png
+  artifactKey: Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/beach/Beach Tileset.png using Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57023d54636d1c100e5a87e865128c6c') in 0.198259 seconds 
+  Import took 0.201398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.091571 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png
+  artifactKey: Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png using Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faee53299d20a87f22037e4ef5630a3') in 0.007749 seconds 
+  Import took 0.010518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.364405 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png
+  artifactKey: Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png using Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f369a68a6f154768b0acdfbfc5c1707') in 0.017142 seconds 
+  Import took 0.019935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.277853 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png
+  artifactKey: Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png using Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d86568e8e3695724115bdc37e7c203') in 0.006986 seconds 
+  Import took 0.009650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.080419 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png
+  artifactKey: Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png using Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfae0b61c6b89d2d0f9b83201a788c0') in 0.021893 seconds 
+  Import took 0.024555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.617554 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png
+  artifactKey: Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png using Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8577893844ec83c18a02a264ab04a702') in 0.023483 seconds 
+  Import took 0.026141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.776913 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png
+  artifactKey: Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png using Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9918275eb3603f28d206c58b4ed465ae') in 0.028803 seconds 
+  Import took 0.031489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.501506 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Death.png
+  artifactKey: Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Death.png using Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a5d9b565047832b4c4028b6139c6f3') in 0.020972 seconds 
+  Import took 0.023666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.118651 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Death.png
+  artifactKey: Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Death.png using Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8caa2e37745e79a96ab9609ff025e6') in 0.027174 seconds 
+  Import took 0.029774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.063254 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png
+  artifactKey: Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png using Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd02796747dd28110dec7b91cbbc2fb3') in 0.007935 seconds 
+  Import took 0.010587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.202848 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png
+  artifactKey: Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png using Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c122449c650cc686543aea85f4ff15') in 0.029447 seconds 
+  Import took 0.032090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.538023 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Idle.png
+  artifactKey: Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Idle.png using Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94dd920eaad64cc99ece6c060a2866d') in 0.007478 seconds 
+  Import took 0.010174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.156586 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Idle.png
+  artifactKey: Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Idle.png using Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b2ba32c831130b8b1514f8966ed4c0') in 0.020379 seconds 
+  Import took 0.023112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.810224 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Jump.png
+  artifactKey: Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Jump.png using Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312a3b12c8bf69d2a690ae0a86fce998') in 0.007148 seconds 
+  Import took 0.009859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.134606 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Jump.png
+  artifactKey: Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Jump.png using Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2491a6512c0de0c97dd650e3ba225fe4') in 0.036883 seconds 
+  Import took 0.039734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.512147 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Run.png
+  artifactKey: Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Run.png using Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf259a1d8363feb75116b572036d987') in 0.007381 seconds 
+  Import took 0.010094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.878829 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Run.png
+  artifactKey: Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Run.png using Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4291d9d26b92128f2eaaf9669515b642') in 0.033275 seconds 
+  Import took 0.036024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.149400 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Run.png
+  artifactKey: Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Run.png using Guid(a666d4d2bedfdce4b914962d27a8e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e665ab39b651a8f4815cb144894cbac2') in 0.026928 seconds 
+  Import took 0.029685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.142004 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Jump.png
+  artifactKey: Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Jump.png using Guid(8fe14d6c08c40b349b483811845ed69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972bc6539be5289be12c611f6e3afca3') in 0.035477 seconds 
+  Import took 0.038129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.756565 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Idle.png
+  artifactKey: Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Idle.png using Guid(efc48ff4198b3b24bb449388dfe4c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd903648cc57206249ca081f3aeef8b5') in 0.023785 seconds 
+  Import took 0.026467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.414294 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png
+  artifactKey: Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Dodge.png using Guid(7865345dfda81a0478afebaefb9916a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667b154e0127d7db1735cd0a92f67199') in 0.027175 seconds 
+  Import took 0.030002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.705719 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Death.png
+  artifactKey: Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Death.png using Guid(e93380b61fccbef4480c1b58c8f5db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2e39d8dcd1d069023fb94df1e63b1c') in 0.021579 seconds 
+  Import took 0.024233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.763627 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png
+  artifactKey: Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_4.png using Guid(cb8ca4b6117a32147b80d3991104e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a0f6a6c66dd27295b445963c050298') in 0.028996 seconds 
+  Import took 0.031680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.668927 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png
+  artifactKey: Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_3.png using Guid(3fd27179be01a2f42970845a648c0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979fcab36722a0b07aacfde624cc4ce6') in 0.018938 seconds 
+  Import took 0.021667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.545259 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png
+  artifactKey: Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png using Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a18217e30dd5a21bde65f40a6a1d3cd') in 0.023683 seconds 
+  Import took 0.026279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.448811 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png
+  artifactKey: Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png using Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603555360c5b5a901caff3139fd389b1') in 0.028024 seconds 
+  Import took 0.030699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.262694 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Take_Damage.png
+  artifactKey: Guid(9f21b6e9ba984a14d930488ec3e1cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Take_Damage.png using Guid(9f21b6e9ba984a14d930488ec3e1cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2530885fcb2439003b8b4dd95909a059') in 0.008284 seconds 
+  Import took 0.011011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.671332 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Take_Damage.png
+  artifactKey: Guid(9f21b6e9ba984a14d930488ec3e1cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Take_Damage.png using Guid(9f21b6e9ba984a14d930488ec3e1cbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33010ca3a9fcf961c19249bd1edc36a') in 0.013715 seconds 
+  Import took 0.016414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.266848 seconds.
+  path: Assets/場景素材/beach/Beach Tileset.png
+  artifactKey: Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/beach/Beach Tileset.png using Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7372a349e5aa5db02cc7b884fe7f6ae') in 0.193580 seconds 
+  Import took 0.196545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.316164 seconds.
+  path: Assets/場景/遊戲場景.unity
+  artifactKey: Guid(cf21e41a33580af4bb2258ff930b691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/遊戲場景.unity using Guid(cf21e41a33580af4bb2258ff930b691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6fa485f06ac1edd6c2375b5a77044b') in 0.005361 seconds 
+  Import took 0.008210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.898916 seconds.
+  path: Assets/場景素材/beach/Beach Tileset.png
+  artifactKey: Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/beach/Beach Tileset.png using Guid(12cae0a0385926f4a82e0d2c92fb59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db36739a26cb373419125e9fc3dafa2') in 0.200437 seconds 
+  Import took 0.203504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.298875 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png
+  artifactKey: Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_1.png using Guid(cce13d7064b12764eba2365cba732c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d098a0b473beb5c15c2eb4dc5a2eb29') in 0.026223 seconds 
+  Import took 0.029042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.582454 seconds.
+  path: Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png
+  artifactKey: Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景素材/Meow Knight/Meow-Knight_Attack_2.png using Guid(2256f57b43406f24db5bfbae33eb36f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65393dddc21b764eae114cd839421c4e') in 0.018632 seconds 
+  Import took 0.021245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.532578 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(a22d57fdd435339449fc44f4ac8968f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(a22d57fdd435339449fc44f4ac8968f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab21494b403ef6e88b8a2625a1c2026e') in 0.027089 seconds 
+  Import took 0.029952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.478972 seconds.
+  path: Assets/調色盤/Beach Tileset_47.asset
+  artifactKey: Guid(735fca7b44246634a81014adc5659445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/Beach Tileset_47.asset using Guid(735fca7b44246634a81014adc5659445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251d503f86bf2670f150dcc25ba13b17') in 0.018833 seconds 
+  Import took 0.021719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/調色盤/Beach Tileset_48.asset
+  artifactKey: Guid(d236eaf8afb762546b9725cae771be1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/Beach Tileset_48.asset using Guid(d236eaf8afb762546b9725cae771be1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96d4e7736902c2418ce81c1dfb05380') in 0.008177 seconds 
+  Import took 0.010598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(a22d57fdd435339449fc44f4ac8968f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(a22d57fdd435339449fc44f4ac8968f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03cf0146b08c8565d73c004bec995a1') in 0.012254 seconds 
+  Import took 0.014878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711368 seconds.
+  path: Assets/調色盤/Beach Tileset_46.asset
+  artifactKey: Guid(053b35ef205decd4d94f35788d2095a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/Beach Tileset_46.asset using Guid(053b35ef205decd4d94f35788d2095a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783370b5fc9bfd357bdc8feede0cfde') in 0.008526 seconds 
+  Import took 0.011535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000870 seconds.
+  path: Assets/調色盤/Beach Tileset_46.asset
+  artifactKey: Guid(053b35ef205decd4d94f35788d2095a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/Beach Tileset_46.asset using Guid(053b35ef205decd4d94f35788d2095a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f783370b5fc9bfd357bdc8feede0cfde') in 0.004764 seconds 
+  Import took 0.007492 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
