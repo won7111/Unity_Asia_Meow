@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28833005, g: 0.45678687, b: 0.582519, a: 1}
+  m_IndirectSpecularColor: {r: 0.96777374, g: 0.82275426, b: 0.5703119, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5570,6 +5570,24 @@ MonoBehaviour:
   weight: 3.5
   brand: "\u55B5\u55B5"
   hasSkywindow: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  colorRed: {r: 1, g: 0, b: 0, a: 1}
+  colorYellow: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  colorCustom1: {r: 0, g: 0, b: 1, a: 1}
+  colorCustom2: {r: 1, g: 0, b: 1, a: 0.5}
+  v2: {x: 0, y: 0}
+  v2one: {x: 1, y: 1}
+  v2right: {x: 1, y: 0}
+  v2custom: {x: 1, y: 2}
+  keycode: 0
+  keycodeMouseLeft: 97
+  keycodeMouseRight: 100
+  keycodeJump: 32
+  goCamera: {fileID: 0}
+  goCar: {fileID: 0}
+  tranCamera: {fileID: 0}
+  cam: {fileID: 0}
+  spr: {fileID: 0}
 --- !u!1 &1206376827
 GameObject:
   m_ObjectHideFlags: 0
