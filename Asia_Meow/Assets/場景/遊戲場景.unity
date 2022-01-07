@@ -1036,7 +1036,7 @@ GameObject:
   - component: {fileID: 1085492825}
   - component: {fileID: 1085492824}
   - component: {fileID: 1085492826}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u5730\u677F"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5479,7 +5479,6 @@ GameObject:
   - component: {fileID: 1153372214}
   - component: {fileID: 1153372213}
   - component: {fileID: 1153372212}
-  - component: {fileID: 1153372215}
   - component: {fileID: 1153372217}
   - component: {fileID: 1153372216}
   - component: {fileID: 1153372218}
@@ -5574,40 +5573,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1153372215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153372211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03d585c81591ffc43baae32d9763cd3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cc: 1000
-  weight: 3.5
-  brand: "\u55B5\u55B5"
-  hasSkywindow: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
-  colorRed: {r: 1, g: 0, b: 0, a: 1}
-  colorYellow: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  colorCustom1: {r: 0, g: 0, b: 1, a: 1}
-  colorCustom2: {r: 1, g: 0, b: 1, a: 0.5}
-  v2: {x: 0, y: 0}
-  v2one: {x: 1, y: 1}
-  v2right: {x: 1, y: 0}
-  v2custom: {x: 1, y: 2}
-  keycode: 0
-  keycodeMouseLeft: 97
-  keycodeMouseRight: 100
-  keycodeJump: 32
-  goCamera: {fileID: 0}
-  goCar: {fileID: 0}
-  tranCamera: {fileID: 0}
-  cam: {fileID: 0}
-  spr: {fileID: 0}
 --- !u!70 &1153372216
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5658,7 +5623,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.5
-  jump: 300
+  jump: 0
+  checkGroundRadius: 0.071
+  checkGroundOffset: {x: 0.04, y: -0.5, z: 0}
+  keyJump: 32
+  canJumpLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1206376827
 GameObject:
   m_ObjectHideFlags: 0
