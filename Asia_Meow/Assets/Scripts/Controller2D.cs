@@ -16,14 +16,31 @@ public class Controller2D : MonoBehaviour
     public float checkGroundRadius = 0.1f;
     public Vector3 checkGroundOffset;
     [Header("跳躍按鍵與可跳躍圖層")]
-    public KeyCode keyJump = KeyCode.Space;
+    public KeyCode keyJump = KeyCode.Space;  
     public LayerMask canJumpLayer;
+    [Header("動畫參數 : 走路與跳躍")]
+    public string parameterWalk = "開關走路";
+    public string parameterJump = "開關跳躍";
+
+
 
     #endregion
+    private Animator ani;
+    #region 欄位 : 私人
     /// <summary>
     /// 剛體元件 Rigidbody2D
     /// </summary>
     private Rigidbody2D rig;
+    //將私人欄位顯示在屬性面板上
+    [SerializeField]
+    /// <summary>
+    /// 是否在地板上
+    /// </summary>
+
+    private bool isGrounded;
+    #endregion
+
+    #region 事件
     /// <summary>
     /// 繪製圖示
     /// 在Unity 繪製輔助用的圖示
@@ -46,6 +63,7 @@ public class Controller2D : MonoBehaviour
     {
         //剛體欄位 = 取得元件<2D 剛體>()
         rig = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
 
     }
     /// <summary>
@@ -61,7 +79,11 @@ public class Controller2D : MonoBehaviour
     private void Update()
     {
         Flip();
+        CheckGround();
+        Jump();
     }
+    #endregion
+
     #region 方法
     /// <summary>
     /// 1.玩家是否有按移動按鍵 左右方向鍵 或 A、D
@@ -71,10 +93,13 @@ public class Controller2D : MonoBehaviour
     {
         // h值 指定為 輸入. 取得軸向(水平軸) - 水平軸代表左右鍵與 AD
         float h = Input.GetAxis("Horizontal");
-        print("玩家左右按鍵值" + h);
+        ///print("玩家左右按鍵值" + h);
 
         //剛體元件.加速度 = 新 二維向量(h 值 * 移動速度，剛體，加速度，垂直 );
         rig.velocity = new Vector2(h*speed, rig.velocity.y);
+
+        //當水平值不等於零時勾選走路參數
+        ani.SetBool(parameterWalk, h != 0);
     }
     
     /// <summary>
@@ -95,9 +120,40 @@ public class Controller2D : MonoBehaviour
             transform.eulerAngles = Vector3.zero;
         }
     }
+
+    /// <summary>
+    /// 檢查是否在地板
+    /// </summary>
+    private void CheckGround()
+    {
+        // 碰撞資訊 - 2D物理.覆蓋圖形(中心點，半徑，圖層)
+        Collider2D hit = Physics2D.OverlapCircle(transform.position +
+            transform.TransformDirection(checkGroundOffset), checkGroundRadius, canJumpLayer);
+
+        ///print("碰到的物件名稱 : " + hit.name);
+
+        isGrounded = hit;
+
+        // 當 不在地板上 勾選
+        ani.SetBool(parameterJump, !isGrounded);
+    }
+
+    private void Jump()
+    {
+        //如果 在地板上 並且 按下指定按鍵
+        if (isGrounded && Input.GetKeyDown(keyJump))
+        {
+            //剛體,添加推力(二維向量)
+            rig.AddForce(new Vector2(0, jump));
+
+        }
+    }
     #endregion
-
-
 }
+
+
+
+
+
 
 
