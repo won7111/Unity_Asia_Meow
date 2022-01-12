@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eec6d0e42f557c469e96c115719ecef, type: 3}
+  m_Name: POLOLAY
+  m_EditorClassIdentifier: 
+  dialogues:
+  - "\u4E00\u8DEF\u767C\u8CA1\u3001\u96D9\u661F\u5831\u559C\u3001\u4E09\u6D0B\u958B\u6CF0\u3001\u56DB\u56DB\u5982\u610F\u3001\u4E94\u798F\u81E8\u9580\u3001\u516D\u516D\u5927\u9806\u3001\u4E03\u5B50\u516B\u5A7F\u3001\u516B\u4ED9\u904E\u6D77\u3001\u4E5D\u4E5D\u91CD\u967D\u3001\u5341\u5206\u6109\u5FEB"

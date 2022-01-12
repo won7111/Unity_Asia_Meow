@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eec6d0e42f557c469e96c115719ecef, type: 3}
+  m_Name: BINGBAD
+  m_EditorClassIdentifier: 
+  dialogues:
+  - "\u9019\u9EBC\u7C21\u55AE\u7684\u904A\u6232\u4E5F\u904E\u4E0D\u4E86\u592A\u905C\u4E86\u5427"
