@@ -5,6 +5,7 @@ using UnityEngine;
 /// </summary>
 
 public class Controller2D : MonoBehaviour
+
 {
     #region 欄位 : 公開
     [Header("移動速度"), Range(0, 500)]

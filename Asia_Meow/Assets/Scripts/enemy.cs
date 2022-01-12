@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
     #region
     [Header("檢查追蹤區域大小與位移")]
     public Vector3 v3TrackSize = Vector3.one;
-    public Vector3 v3TrackOffest;
+    public Vector3 v3TrackOffset;
     [Header("移動速度")]
     public float speed = 1.5f;
     [Header("目標圖層")]
@@ -19,6 +19,11 @@ public class Enemy : MonoBehaviour
     public float attackDistance = 1.3f;
     [Header("攻擊冷卻時間"), Range(0, 10)]
     public float attackCD = 2.8f;
+    [Header("檢查攻擊區域大小與位移")]
+    public Vector3 v3AttackSize = Vector3.one;
+    public Vector3 v3AttackOffset;
+
+
 
 
     private float angle = 0;
@@ -28,28 +33,38 @@ public class Enemy : MonoBehaviour
 
     #endregion
 
-
-
     #region 事件
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
-    }
 
+    }
 
     private void OnDrawGizmos()
     {
         // 指定圖示顏色
         Gizmos.color = new Color(1, 0, 0, 0.3f);
+       
+
         // 繪製立方體(中心，尺寸)
-        Gizmos.DrawCube(transform.position + transform.TransformDirection(v3TrackOffest), v3TrackSize);
+        Gizmos.DrawCube(transform.position + transform.TransformDirection(v3TrackOffset), v3TrackSize);
+
+        Gizmos.color = new Color(0, 1, 0, 0.3f);
+        Gizmos.DrawCube(transform.position + transform.TransformDirection(v3AttackOffset), v3AttackSize);
+
+
+
     }
+
     private void Update()
     {
         CheckTargertInArea();
     }
     #endregion
+
+
+
 
     #region 方法
     /// <summary>
@@ -57,19 +72,18 @@ public class Enemy : MonoBehaviour
     /// </summary>
     private void CheckTargertInArea()
     {
-
         //2D物理.覆蓋盒形(中心，尺寸，角度)
-        Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3TrackOffest), v3TrackSize, 0, layerTarget);
-
+        Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3TrackOffset), v3TrackSize, 0, layerTarget);
         if (hit) Move();
-
-
     }
+
     /// <summary>
     /// 移動
     /// </summary>
     private void Move()
     {
+
+        #region 使用判斷式if
         //三原運算子語法 : 布林值 ? 當布林值 為 ture : 當布林值 為 false ;
         //如果 目標的 x 小於 敵人的 x 就代表在左邊  角度0
         //如果 目標的 x 大於 敵人的 x 就代表在右邊  角度180
@@ -79,11 +93,11 @@ public class Enemy : MonoBehaviour
             //右邊 angle = 180
         }
         else if (target.position.x < transform.position.x)
+        #endregion
+        #region 移動
         {
             //左邊 angle =0
         }
-
-        //三源運算子語法 : 布林值 ? 當布林值為 ture : 當布林值為 false ;
         angle = target.position.x > transform.position.x ? 180 : 0;
         //變形,歐拉角度= Y* 角度
         transform.eulerAngles = Vector3.up * angle;
@@ -93,7 +107,8 @@ public class Enemy : MonoBehaviour
 
         // 距離 = 三維向量.距離(A點，B點)
         float distance = Vector3.Distance(target.position, transform.position);
-        print("與目標的距離 : " + distance);
+        //print("與目標的距離 :" + distance);
+        #endregion
 
         if (distance <= attackDistance)    //如果 距離 小於等於 攻擊距離
         {
@@ -101,6 +116,9 @@ public class Enemy : MonoBehaviour
             Attack();
         }
     }
+
+    [Header("攻擊力"), Range(0, 100)]
+    public float attack = 35;
     /// <summary>
     /// 攻擊
     /// </summary>
@@ -115,11 +133,24 @@ public class Enemy : MonoBehaviour
 
             ani.SetTrigger(parameterAttack); //如果計時器 大於等於 冷卻時間 就 攻擊
             timerAttack = 0;                 // 計時器 歸零
+            Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3AttackOffset), v3AttackSize, 0, layerTarget);
+            hit.GetComponent<hurtsysystem>().Hurt(attack);
         }
 
 
     }
-
     #endregion
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
