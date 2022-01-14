@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class enemy : MonoBehaviour
 {
     #region
     [Header("檢查追蹤區域大小與位移")]
